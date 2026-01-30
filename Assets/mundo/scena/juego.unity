@@ -157,8 +157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
-  Linterna: {fileID: 0}
-  bateria: 0
 --- !u!114 &2676609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1347,11 +1345,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &391989125 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-  m_PrefabInstance: {fileID: 642242092}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &402857331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3786,8 +3779,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
-  Linterna: {fileID: 0}
-  bateria: 0
 --- !u!4 &548883899 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e7ab4eed3de579d4e834e7ac2e0ecba1, type: 3}
@@ -3840,11 +3831,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!4 &579383785 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-  m_PrefabInstance: {fileID: 1892281155}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &633605967 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e7ab4eed3de579d4e834e7ac2e0ecba1, type: 3}
@@ -3897,74 +3883,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
-  Linterna: {fileID: 0}
-  bateria: 0
 --- !u!4 &633605973 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e7ab4eed3de579d4e834e7ac2e0ecba1, type: 3}
   m_PrefabInstance: {fileID: 1667353039}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &642242092
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 655917609}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.025004242
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0850747
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.19789328
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7437721
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0808841
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.65962714
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.07178316
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -2.238
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 83.512
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -18.988
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_Name
-      value: camara (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3566390031902043909, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 745fb4e1c505d8d4cb87a4316aebb2db, type: 2}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 34ddae006d21676448d38474407a9c18, type: 3}
 --- !u!1 &642587761
 GameObject:
   m_ObjectHideFlags: 0
@@ -4348,8 +4271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
-  Linterna: {fileID: 0}
-  bateria: 0
 --- !u!4 &652022832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e7ab4eed3de579d4e834e7ac2e0ecba1, type: 3}
@@ -4490,8 +4411,7 @@ Transform:
   m_LocalPosition: {x: 440.891, y: 11.199, z: 308.834}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 391989125}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -0.35, y: 15.266, z: 0.004}
 --- !u!95 &655917610
@@ -6171,8 +6091,7 @@ Transform:
   m_LocalPosition: {x: 270.9478, y: 2.9065, z: 382.2343}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 579383785}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 4.086, y: 42.632, z: 0.04}
 --- !u!95 &1386282039
@@ -6289,8 +6208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
-  Linterna: {fileID: 0}
-  bateria: 0
 --- !u!4 &1407998602 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e7ab4eed3de579d4e834e7ac2e0ecba1, type: 3}
@@ -7073,8 +6990,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
-  Linterna: {fileID: 0}
-  bateria: 0
 --- !u!4 &1594634506 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e7ab4eed3de579d4e834e7ac2e0ecba1, type: 3}
@@ -7828,8 +7743,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
-  Linterna: {fileID: 0}
-  bateria: 0
 --- !u!4 &1845848097 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e7ab4eed3de579d4e834e7ac2e0ecba1, type: 3}
@@ -8332,67 +8245,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 642587767}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1892281155
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1386282038}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.21951503
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.063397
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.15947407
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7441425
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.17363912
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.64292884
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.05238308
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -2.238
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 83.512
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -18.988
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: m_Name
-      value: camara (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3566390031902043909, guid: 34ddae006d21676448d38474407a9c18, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 745fb4e1c505d8d4cb87a4316aebb2db, type: 2}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 34ddae006d21676448d38474407a9c18, type: 3}
 --- !u!1 &1934145235
 GameObject:
   m_ObjectHideFlags: 0
@@ -8671,8 +8523,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
-  Linterna: {fileID: 0}
-  bateria: 0
 --- !u!4 &1957806193 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e7ab4eed3de579d4e834e7ac2e0ecba1, type: 3}
